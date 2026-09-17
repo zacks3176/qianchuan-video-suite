@@ -133,7 +133,7 @@ def main():
     parser = argparse.ArgumentParser(description="MiniMax TTS Tool")
     parser.add_argument("--text", required=True, help="Text to synthesize")
     parser.add_argument("--output", required=True, help="Output MP3 file path")
-    parser.add_argument("--voice", default="TouliuMale20260908R1", help="Voice ID")
+    parser.add_argument("--voice", default="male-qn-qingse", help="Voice ID")
     parser.add_argument("--speed", type=float, default=1.0, help="Speech speed multiplier")
     args = parser.parse_args()
 
