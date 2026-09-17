@@ -1,0 +1,6 @@
+{
+  "model": "speech-2.8-hd",
+  "voice_id": "male-qn-qingse",
+  "base_url": "https://api.minimaxi.com",
+  "minimax_api_key": ""
+}
